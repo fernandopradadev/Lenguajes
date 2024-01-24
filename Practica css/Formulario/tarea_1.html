@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" 
+        name="nombre" maxlength="15"
+        required placeholder="escribe aquí tu nombre..."> <br>  </br>
+
+        <label for="apeliidos">Apellidos:</label>
+        <input type="text" id="apellidos" 
+        name="apellidos" maxlength="50"
+        required placeholder="escribe aquí tus apellidos..."> <br> </br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" 
+        name="email" maxlength="50"
+        required placeholder="escribe aquí tu email..."> <br> </br>
+
+        <label for="asunto">Asunto:</label>
+        <select name="asunto" id="asunto"> 
+        <option value="nada"></option>
+        <option value="Presupuesto">Presupuesto</option>
+        <option value="cita_previa">Pedir cita previa</option> 
+        <option value="Otros">Otros</option>
+        </select><br> </br>
+
+
+        <label for="Conocido">Cómo nos has conocido:</label>
+        <select name="asunto" id="asunto" required> 
+        <option value="vacio"></option>
+        <option value="Amigo">Amigo</option>
+        <option value="Redes">Redes sociales</option> 
+        <option value="Anuncio">Anuncio</option>
+        <option value="Otros">Otros</option>
+        </select><br> </br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" cols="25" rows="3" maxlength="30"></textarea>
+        <br></br>
+
+        <input type="checkbox" id="rgpd" name="rgpd" required>
+        <label for="rgpd">Acepto la cláusula rgpd</label>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+a {color: black;
+    font-size: xx-large;
+    margin-left: 180px;
+    font-family: cursive;
+    
+
+}
+p{font-size: x-large;}
+a:visited {color: green;
+}
+ul{
+    background-color: aqua;
+    font-family: fantasy;
+    font-size: 18px;
+
+
+}
+button {background-color: blue;
+color: white;
+border: 3px solid black;
+border-radius: 30px;
+padding: 1%;
+font-size: 25px;
+margin-left: 200px;
+margin-top: 20px;
+
+}
+
+th{
+   font-weight: bold;
+   color:brown;
+   background-color: bisque;
+   border-bottom: 2px solid black;
+   padding: 15px;
+   
+}
+table{
+    border: 2px;
+    border-bottom: 2px solid black;
+    padding: 10px 12px;
+    border-collapse: collapse;
+    margin-left: 250px;
+
+}
+
+tr{
+    border-bottom: 2px solid black;
+    border: 2px solid black;
+    padding: 10px;
+}

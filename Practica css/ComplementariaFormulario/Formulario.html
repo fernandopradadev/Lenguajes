@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="titulo">REFORMAS Y MUDANZAS PRADA S.L.</h1>
+    <img id="logoj" src="logo.png" alt="">
+
+    <form>
+
+        <label for="name"><em>Nombre</em></label>
+        <input type="text" id="nombre" name="name" maxlength="30"><br><br>
+        <label for="surname"><em>Apellidos</em></label>
+        <input type="text" id="apellidos" name="surname" maxlength="30"><br><br>
+        <label for="email"><em>Email</em></label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="asunto"><em>Asunto</em></label>
+        <select name="asunto" id="asunto">
+            <option></option>
+            <option>Pedir prespuesto</option>
+            <option>Solicitar citar previa</option>
+            <option>Otros</option>
+
+        </select>
+        <br> <br>
+
+        <label for="conocido"><em>¿Cómo nos has conocido?</em></label>
+        <select name="conocido" id="conocido">
+        <option></option>
+        <option>Redes sociales</option> 
+        <option>Por un correo</option>
+        <option>Por un anuncio</option>
+        <option>Por un amigo</option>
+        <option>Otro</option>
+
+        </select>
+    <br>
+    <br>
+        <label for="comentario">¡Si tienes algo más que declarar, habla ahora o calla para siempre!</label><br>
+        <textarea rows="3" cols="45" id="comentario" required minlength="30" maxlength="300"></textarea>
+        <br> <br>
+        <label>
+            <input type="checkbox" id="politicaPrivacidad" required>
+            He leído y acepto la <a href="/politica-de-privacidad" target="_blank">política de privacidad</a>.
+        </label><br><br>
+        <button id="final" type="submit">Enviar formulario</button>
+    </form>
+    </form>
+<br>
+    <img id="foto1" src="REformas.png" alt="Hola">
+
+    
+</body>
+</html>

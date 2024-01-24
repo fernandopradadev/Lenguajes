@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos_de_futbol>
+
+    <equipo descripcion="Real Madrid">
+    <ciudad>Madrid</ciudad>
+    <entrenador/>
+    <jugador>Vinicius Jr</jugador>
+    <posicion descripcion="delantero">
+    <nacionalidad>brasileña</nacionalidad>
+    <jugador>Federico Valverde</jugador>
+    <posicion descripcion="medio">
+    <nacionalidad>uruguaya</nacionalidad>
+
+    </equipo>
+
+ <equipo descripcion="Girona">
+    <ciudad>Girona</ciudad>
+    <entrenador/>
+    <jugador>Dobvyk</jugador>
+    <posicion descripcion="delantero">
+    <nacionalidad>ucraniana</nacionalidad>
+    <jugador>Aleix Garcia</jugador>
+    <posicion descripcion="medio">
+    <nacionalidad>española</nacionalidad>
+    
+    </equipo>
+
+</equipos_de_futbol>
+

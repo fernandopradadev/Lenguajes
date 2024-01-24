@@ -1,0 +1,40 @@
+
+
+#miImagen{width: 150px;
+    float: right;
+    margin-top: 230px;
+    border-radius: 50%;
+    width: 200px;
+
+}
+
+dl{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    
+}
+ul{font-size: larger;
+    font-weight: bolder;
+    float: left;
+}
+
+ol{font-size: larger;
+    font-weight: bolder;
+float: left;}
+
+
+p{font-size: larger;
+    font-weight: bolder;
+float: left;}
+
+div{background-color: aliceblue;
+text-align: center;;}
+
+#imagen1{margin-left: 182px;}
+
+h1{text-align:center;}
+
+*{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
